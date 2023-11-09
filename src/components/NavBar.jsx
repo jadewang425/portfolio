@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 import Resume from '../assets/Jade_Resume.pdf'
+import Headshot from '../assets/portfolio_pic.jpg'
 
 export default function NavBar() {
     const [nav, setNav] = useState(false)
@@ -11,7 +12,9 @@ export default function NavBar() {
 
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white">
-            <div>NavBar Logo</div>
+            <div>
+                <img src={Headshot} alt="jade" className='w-[60px] rounded-full border-4' />
+            </div>
             {/* menu */}
             <ul className='hidden md:flex'>
                 <li className='hover:border-b-4'>
@@ -76,25 +79,25 @@ export default function NavBar() {
             </ul>
 
             {/* Social Icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#005bb6]'>
-                        <a href="https://www.linkedin.com/in/jade-c-w/" target="_blank" className='flex justify-between items-center w-full text-gray-300'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#64aef9]'>
+                        <a href="https://www.linkedin.com/in/jade-c-w/" target="_blank" className='flex justify-between items-center w-full'>
                             LinkedIn <FaLinkedin size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
-                        <a href="https://github.com/jadewang425" target="_blank" className='flex justify-between items-center w-full text-gray-300'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-400'>
+                        <a href="https://github.com/jadewang425" target="_blank" className='flex justify-between items-center w-full'>
                             GitHub <FaGithub size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
-                        <a href="mailto:jadewang425@gmail.com" className='flex justify-between items-center w-full text-gray-300'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-400'>
+                        <a href="mailto:jadewang425@gmail.com" className='flex justify-between items-center w-full'>
                             Email <HiOutlineMail size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
-                        <a href={Resume} download className='flex justify-between items-center w-full text-gray-300'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-500'>
+                        <a href={Resume} download className='flex justify-between items-center w-full'>
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>

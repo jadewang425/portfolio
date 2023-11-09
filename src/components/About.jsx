@@ -8,14 +8,14 @@ export default function About () {
                     </div>
                     <div></div>
                 </div>
-                    <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-                        <div className="sm:text-right text-4xl font-bold">
-                            <p>Hi, I'm Jade, nice to meet you.</p>
-                        </div>
-                        <div>
-                            <p>description of myself</p>
-                        </div>
+                <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+                    <div className="sm:text-right text-4xl font-bold">
+                        <p>Hi, I'm Jade, nice to meet you.</p>
                     </div>
+                    <div>
+                        <p>I am a passionate software engineer specialized in frontend development. I enjoy creating aesthetic pleasing and user-friendly web interfaces. <br/><br/>I am a collaborative problem-solver that previously worked in e-commerce for luxury brands. </p>
+                    </div>
+                </div>
             </div>
         </div>
     )
