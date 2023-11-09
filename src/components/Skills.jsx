@@ -7,7 +7,7 @@ import React from '../assets/react.png'
 
 export default function Skills () {
     return (
-        <div name='skills' className='w-full h-screen'>
+        <div name='skills' className='w-full h-screen lg:mx-[60px]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-black">Skills</p>
