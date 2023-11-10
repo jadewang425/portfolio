@@ -1,4 +1,7 @@
 import PawCircle from '../assets/projects/paw-circle.png'
+import GymGrid from '../assets/projects/gym-grid.png'
+import TripPlanner from '../assets/projects/trip-planner.png'
+import MemoryGame from '../assets/projects/memory-game.png'
 
 export default function Projects () {
     return (
@@ -25,16 +28,46 @@ export default function Projects () {
                             </div>
                         </div>
                     </div>
-                    <div  style={{backgroundImage: `url(${PawCircle})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                    <div  style={{backgroundImage: `url(${GymGrid})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
                         <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                MERN-stack Application
+                                Django & Python
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://gymgrid.onrender.com/">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/jadewang425/gym_grid">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  style={{backgroundImage: `url(${TripPlanner})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Express.js & MongoDB
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://tripplanner.fly.dev/">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/jadewang425/trip-planner">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  style={{backgroundImage: `url(${MemoryGame})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                JavaScript, CSS & HTML
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://jadewang425.github.io/memory-game/">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/jadewang425/memory-game">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
