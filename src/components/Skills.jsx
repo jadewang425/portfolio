@@ -1,9 +1,9 @@
-import JavaScript from '../assets/javascript.png'
-import GitHub from '../assets/github.png'
-import MongoDB from '../assets/mongo.png'
-import Express from '../assets/express-js.png'
-import Node from '../assets/node.png'
-import React from '../assets/react.png'
+import JavaScript from '../assets/skills/javascript.png'
+import GitHub from '../assets/skills/github.png'
+import MongoDB from '../assets/skills/mongo.png'
+import Express from '../assets/skills/express-js.png'
+import Node from '../assets/skills/node.png'
+import React from '../assets/skills/react.png'
 
 export default function Skills () {
     return (

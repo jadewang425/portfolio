@@ -10,32 +10,32 @@ export default function Projects () {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    <div  style={{backgroundImage: `url(${PawCircle})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className='opacity-0 group-hover:opacity-100 text-center'>
+                    <div  style={{backgroundImage: `url(${PawCircle})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                MERN-stack Application
+                                MERN-Stack Application
                             </span>
                             <div className='pt-8'>
                                 <a href="https://paw-circle.netlify.app/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/jadewang425/paw-circle-react">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div  style={{backgroundImage: `url(${PawCircle})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className='opacity-0 group-hover:opacity-100 text-center'>
+                    <div  style={{backgroundImage: `url(${PawCircle})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 MERN-stack Application
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
