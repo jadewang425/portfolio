@@ -19,10 +19,10 @@ export default function Projects () {
                                 MERN-Stack Application
                             </span>
                             <div className='pt-8'>
-                                <a href="https://paw-circle.netlify.app/">
+                                <a href="https://paw-circle.netlify.app/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/jadewang425/paw-circle-react">
+                                <a href="https://github.com/jadewang425/paw-circle-react" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -34,10 +34,10 @@ export default function Projects () {
                                 Django & Python
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://gymgrid.onrender.com/">
+                                <a href="https://gymgrid.onrender.com/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/jadewang425/gym_grid">
+                                <a href="https://github.com/jadewang425/gym_grid" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -49,10 +49,10 @@ export default function Projects () {
                                 Express.js & MongoDB
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://tripplanner.fly.dev/">
+                                <a href="https://tripplanner.fly.dev/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/jadewang425/trip-planner">
+                                <a href="https://github.com/jadewang425/trip-planner" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -64,10 +64,10 @@ export default function Projects () {
                                 JavaScript, CSS & HTML
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://jadewang425.github.io/memory-game/">
+                                <a href="https://jadewang425.github.io/memory-game/" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/jadewang425/memory-game">
+                                <a href="https://github.com/jadewang425/memory-game" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
