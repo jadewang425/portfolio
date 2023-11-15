@@ -13,7 +13,7 @@ export default function NavBar() {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white">
             <div>
-                <img src={Logo} alt="jade" className='w-[60px]' />
+                <img src={Logo} alt="logo" className='w-[60px]' />
             </div>
             {/* menu */}
             <ul className='hidden md:flex'>
