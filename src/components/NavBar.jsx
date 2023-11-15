@@ -3,8 +3,8 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
-import Resume from '../assets/Jade_Resume.pdf'
-import Headshot from '../assets/portfolio_pic.jpg'
+import Resume from '../assets/jade_resume.pdf'
+import Logo from '../assets/logo_sm.png'
 
 export default function NavBar() {
     const [nav, setNav] = useState(false)
@@ -13,7 +13,7 @@ export default function NavBar() {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white">
             <div>
-                <img src={Headshot} alt="jade" className='w-[60px] rounded-full border-2' />
+                <img src={Logo} alt="jade" className='w-[60px]' />
             </div>
             {/* menu */}
             <ul className='hidden md:flex'>
