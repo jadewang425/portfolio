@@ -5,8 +5,8 @@ import MemoryGame from '../assets/projects/memory-game.png'
 
 export default function Projects () {
     return (
-        <div name='projects' className="w-full md:h-screen lg:mx-[60px]">
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div name='projects' className="w-full md:h-screen">
+            <div className='max-w-[1000px] mx-auto p-14 flex flex-col justify-center w-full h-full'>
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-black">Projects</p>
                     <p className="py-4">Check out some of my recent projects</p>

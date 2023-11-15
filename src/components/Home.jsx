@@ -4,8 +4,8 @@ import Headshot from '../assets/portfolio_pic.jpg'
 
 export default function Home() {
     return (
-        <div name='home' className='w-full h-screen lg:mx-[60px]'>
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div name='home' className='w-full h-screen'>
+            <div className='max-w-[1000px] mx-auto px-14 flex flex-col justify-center h-full'>
                 <img src={Headshot} alt="Jade" className='w-[130px] mb-4 rounded-full'/>
                 <p>Hello! My name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold'>Jade Wang</h1>
