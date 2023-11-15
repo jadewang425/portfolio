@@ -9,7 +9,7 @@ import React from '../assets/skills/react.png'
 export default function Skills () {
     return (
         <div name='skills' className='w-full h-screen'>
-            <div className='max-w-[1000px] mx-auto p-14 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto px-4 lg:px-14 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-black">Skills</p>
                     <p className='py-4'>These are some of the technologies I've worked with</p>
