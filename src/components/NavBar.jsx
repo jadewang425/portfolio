@@ -82,12 +82,12 @@ export default function NavBar() {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#64aef9]'>
-                        <a href="https://www.linkedin.com/in/jade-c-w/" target="_blank" className='flex justify-between items-center w-full'>
+                        <a href="https://www.linkedin.com/in/jade-c-w/" target="_blank" rel="noreferrer" className='flex justify-between items-center w-full'>
                             LinkedIn <FaLinkedin size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-400'>
-                        <a href="https://github.com/jadewang425" target="_blank" className='flex justify-between items-center w-full'>
+                        <a href="https://github.com/jadewang425" target="_blank" rel="noreferrer" className='flex justify-between items-center w-full'>
                             GitHub <FaGithub size={30}/>
                         </a>
                     </li>
@@ -97,7 +97,7 @@ export default function NavBar() {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-500'>
-                        <a href={Resume} download className='flex justify-between items-center w-full'>
+                        <a href={Resume} target="_blank" rel="noreferrer noopener" className='flex justify-between items-center w-full'>
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>
