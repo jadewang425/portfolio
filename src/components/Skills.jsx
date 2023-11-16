@@ -1,5 +1,4 @@
 import Express from '../assets/skills/express-js.png'
-import GitHub from '../assets/skills/github.png'
 import JavaScript from '../assets/skills/javascript.png'
 import MongoDB from '../assets/skills/mongo.png'
 import Node from '../assets/skills/node.png'
