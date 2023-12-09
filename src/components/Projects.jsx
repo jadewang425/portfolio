@@ -13,6 +13,21 @@ export default function Projects () {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    <div  style={{backgroundImage: `url(https://i.imgur.com/1sTnVAZ.png)`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Website Redesign
+                            </span>
+                            <div className='pt-8'>
+                                <a href="https://barkanimalrescue.netlify.app/" target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/jadewang425/winter-hackathon-23" target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div  style={{backgroundImage: `url(${PawCircle})`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
                         <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
