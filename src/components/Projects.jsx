@@ -16,7 +16,7 @@ export default function Projects () {
                     <div  style={{backgroundImage: `url(https://i.imgur.com/1sTnVAZ.png)`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
                         <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Website Redesign
+                                BARK Animal Rescue website Redesign
                             </span>
                             <div className='pt-8'>
                                 <a href="https://barkanimalrescue.netlify.app/" target="_blank" rel="noreferrer">

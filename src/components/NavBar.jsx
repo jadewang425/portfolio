@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
-import Resume from '../assets/jade_resume.pdf'
+import Resume from '../assets/Jade_Resume.pdf'
 import Logo from '../assets/logo_sm.png'
 
 export default function NavBar() {
