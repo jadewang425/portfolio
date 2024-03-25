@@ -10,7 +10,7 @@ export default function Home() {
                 <p>Hello! My name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold'>Jade Wang</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold'>I'm a full-stack developer.</h2>
-                <p className='py-4 max-w-[700px]'>I'm passionate in frontend development with a 7-year background in business and operations in luxury brands.</p>
+                <p className='py-4 max-w-[700px]'>I'm passionate about learning emerging technologies and problem-solving complex issues. Proven track record of collaborating effectively with multi-functional teams to implement new technologies and troubleshooting. </p>
                 <div>
                     <Link to='projects' smooth={true} duration={500}>
                         <button className='border-black border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:text-white'>

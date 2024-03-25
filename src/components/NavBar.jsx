@@ -16,33 +16,33 @@ export default function NavBar() {
                 <img src={Logo} alt="logo" className='w-[60px]' />
             </div>
             {/* menu */}
-            <ul className='hidden md:flex'>
-                <li className='hover:border-b-4'>
-                    <Link to="home" smooth={true} duration={500}>
+            <div className='hidden md:flex'>
+                <div className='self-center'>
+                    <Link to="home" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
                         Home
                     </Link>
-                </li>
-                <li className='hover:border-b-4'>
-                    <Link to="about" smooth={true} duration={500}>
+                </div>
+                <div className='self-center'>
+                    <Link to="about" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
                         About
                     </Link>
-                </li>
-                <li className='hover:border-b-4'>
-                    <Link to="skills" smooth={true} duration={500}>
+                </div>
+                <div className='self-center'>
+                    <Link to="skills" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
                         Skills
                     </Link>
-                </li>
-                <li className='hover:border-b-4'>
-                    <Link to="projects" smooth={true} duration={500}>
+                </div>
+                <div className='self-center'>
+                    <Link to="projects" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
                         Projects
                     </Link>
-                </li>
-                <li className='hover:border-b-4'>
-                    <Link to="contact" smooth={true} duration={500}>
+                </div>
+                <div className='self-center'>
+                    <Link to="contact" smooth={true} duration={500} className='hover:border-b-4 nav-item '>
                         Contact
                     </Link>
-                </li>
-            </ul>
+                </div>
+            </div>
 
 
             {/* Hamburger */}

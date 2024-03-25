@@ -19,7 +19,8 @@ export default function About () {
                     </div>
                     <div className="flex flex-col gap-2 text-justify">
                         <div>
-                            <p>Prior to my career pivot, I worked in e-commerce and operations for luxury brands in the Big Apple. It was during this time that I discovered my passion for programming through collaborative efforts with internal and external stakeholders to implement new technologies. <br/></p>
+                            <p>In my journey in software development, I am deeply passionate about leveraging technology to solve complex problems and improve people’s lives. I strive to write clean, efficient code that is scalable and maintainable, always seeking to learn and apply the latest industry best practices and technologies.</p>
+                            <p>Prior to my career pivot, I accumulated over 6 years of experience in e-commerce and operations for luxury brands. It was during this time that I discovered my passion for programming where I decided to enroll into a 12-week software engineering bootcamp to pursue a career in tech. <br/></p>
                         </div>
                         <div>
                             <p>Beyond work, I am a proud cat mom of 3:<br/></p>
@@ -42,10 +43,10 @@ export default function About () {
                             </div>
                         </div>
                         <div>
-                            <p>Despite my furry responsibilities, I find time to escape the city and enjoy some fresh air exploring hiking trails in Upstate New York. Message me for my personal favorites!</p>
+                            <p>Despite my furry responsibilities, I find time to escape the city and enjoy some fresh air exploring hiking trails in Upstate New York. Message me for my personal favorite spots!</p>
                         </div>
                         <div>
-                            <p>I am thrilled to pursue my passion in software engineering and see what the future holds for my skills and endeavors!</p>
+                            <p>I am thrilled to see what the future holds for my skills and endeavors!</p>
                         </div>
                     </div>
                 </div>
