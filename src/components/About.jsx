@@ -20,7 +20,7 @@ export default function About () {
                     <div className="flex flex-col gap-2 text-justify">
                         <div>
                             <p>In my journey in software development, I am deeply passionate about leveraging technology to solve complex problems and improve people’s lives. I strive to write clean, efficient code that is scalable and maintainable, always seeking to learn and apply the latest industry best practices and technologies.</p>
-                            <p>Prior to my career pivot, I accumulated over 6 years of experience in e-commerce and operations for luxury brands. It was during this time that I discovered my passion for programming where I decided to enroll into a 12-week software engineering bootcamp to pursue a career in tech. <br/></p>
+                            <p>Prior to my career pivot, I spent over 6 years working in e-commerce and operations for luxury brands. It was during this time that I discovered my passion for programming and decided to enroll into a 12-week software engineering bootcamp to pursue a career in tech industry. <br/></p>
                         </div>
                         <div>
                             <p>Beyond work, I am a proud cat mom of 3:<br/></p>
