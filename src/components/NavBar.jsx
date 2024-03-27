@@ -20,27 +20,27 @@ export default function NavBar() {
             {/* menu */}
             <div className='hidden md:flex'>
                 <div className='self-center'>
-                    <Link to="home" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
+                    <Link to="home" smooth={true} duration={500} className='nav-item'>
                         Home
                     </Link>
                 </div>
                 <div className='self-center'>
-                    <Link to="about" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
+                    <Link to="about" smooth={true} duration={500} className='nav-item'>
                         About
                     </Link>
                 </div>
                 <div className='self-center'>
-                    <Link to="skills" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
+                    <Link to="skills" smooth={true} duration={500} className='nav-item'>
                         Skills
                     </Link>
                 </div>
                 <div className='self-center'>
-                    <Link to="projects" smooth={true} duration={500} className='hover:border-b-4 nav-item'>
+                    <Link to="projects" smooth={true} duration={500} className='nav-item'>
                         Projects
                     </Link>
                 </div>
                 <div className='self-center'>
-                    <Link to="contact" smooth={true} duration={500} className='hover:border-b-4 nav-item '>
+                    <Link to="contact" smooth={true} duration={500} className='nav-item '>
                         Contact
                     </Link>
                 </div>

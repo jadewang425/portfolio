@@ -32,7 +32,13 @@
 }
 .nav-item {
     padding: 10px;
+    margin-left: 10px;
     cursor: pointer;
+    transition: all ease-in-out .1s;
+}
+.nav-item:hover {
+    border-bottom: solid rgb(163, 163, 163);
+    transition: all ease-in-out .1s;
 }
 .image {
     object-fit: cover;
