@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccf25b6b.css",
+    "main.js": "/static/js/main.e845a7b9.js",
+    "static/media/gym-grid.png": "/static/media/gym-grid.d4c601c489e8a956748e.png",
+    "static/media/paw-circle.png": "/static/media/paw-circle.add62dc214c2676dfeb9.png",
+    "static/media/pp.png": "/static/media/pp.4d60c7e842d7f5342f1b.png",
+    "static/media/socks.png": "/static/media/socks.fc8eb1ec8a7783d0bc2d.png",
+    "static/media/jj.png": "/static/media/jj.7349ac6f59c27c9386cb.png",
+    "static/media/memory-game.png": "/static/media/memory-game.d63918ce238cafe515ca.png",
+    "static/media/trip-planner.png": "/static/media/trip-planner.5c56ca1a752214d013fe.png",
+    "static/media/portfolio_pic.jpg": "/static/media/portfolio_pic.b006b98a9ad401837827.jpg",
+    "static/media/python.png": "/static/media/python.63c9c09f9faa159ffd08.png",
+    "static/media/logo_sm.png": "/static/media/logo_sm.c3df8591cbcccb5a7325.png",
+    "static/media/Jade_Resume.pdf": "/static/media/Jade_Resume.9107ea9e12a258969866.pdf",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.ccf25b6b.css.map": "/static/css/main.ccf25b6b.css.map",
+    "main.e845a7b9.js.map": "/static/js/main.e845a7b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf25b6b.css",
+    "static/js/main.e845a7b9.js"
+  ]
+}
