@@ -13,12 +13,19 @@ export default function Projects () {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    <div  style={{backgroundImage: `url(https://i.imgur.com/1sTnVAZ.png)`}} className="shadow-lg shadow-[#040c1646] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
-                        <div className='opacity-0 group-hover:opacity-100 text-center px-4'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                BARK Animal Rescue website Redesign
+                    <div className='shadow-lg shadow-[#040c1646] rounded-md h-[250px] relative max-w-xs overflow-hidden bg-cover bg-no-repeat'>
+                        {/* <div className="group container rounded-md flex justify-center items-center mx-auto content-div h-[250px]">
+                        </div> */}
+                        <img 
+                            src="https://i.imgur.com/1sTnVAZ.png"
+                            alt="BARK Animal Rescue website Redesign"
+                            className='image h-full block'
+                        />
+                        <div className="absolute bottom-0 left-0 right-0 top-0 overflow-hidden bg-black bg-fixed opacity-0 transition duration-300 ease-in-out project-text-wrapper">
+                            <span className='text-2xl font-bold tracking-wider'>
+                                BARK Animal Rescue Website Redesign
                             </span>
-                            <div className='pt-8'>
+                            <div className='pt-4'>
                                 <a href="https://barkanimalrescue.netlify.app/" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
