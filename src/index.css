@@ -37,8 +37,23 @@
     transition: all ease-in-out .1s;
 }
 .nav-item:hover {
-    border-bottom: solid rgb(163, 163, 163);
+    border-bottom: 3px solid rgb(163, 163, 163);
     transition: all ease-in-out .1s;
+}
+.nav-mobile-item {
+    display: inline-block;
+}
+.nav-mobile-item::after {
+    content:'';
+    display: block;
+    margin-top: 4px;
+    height: 4px;
+    width: 0;
+    background: rgb(163, 163, 163);
+    transition: width .2s;
+}
+.nav-mobile-item:hover::after {
+    width: 100%;
 }
 .image {
     object-fit: cover;

@@ -40,7 +40,7 @@ export default function NavBar() {
                     </Link>
                 </div>
                 <div className='self-center'>
-                    <Link to="contact" smooth={true} duration={500} className='nav-item '>
+                    <Link to="contact" smooth={true} duration={500} className='nav-item'>
                         Contact
                     </Link>
                 </div>
@@ -53,28 +53,28 @@ export default function NavBar() {
             </div>
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center'}>
-                <li className='py-4 text-4xl hover:border-b-4'>
-                    <Link to="home" smooth={true} duration={500} onClick={handleClick}>
+                <li className='py-4 text-4xl'>
+                    <Link to="home" smooth={true} duration={500} onClick={handleClick} className='nav-mobile-item'>
                         Home
                     </Link>
                 </li>
-                <li className='py-4 text-4xl hover:border-b-4'>
-                    <Link to="about" smooth={true} duration={500} onClick={handleClick}>
+                <li className='py-4 text-4xl'>
+                    <Link to="about" smooth={true} duration={500} onClick={handleClick} className='nav-mobile-item'>
                         About
                     </Link>
                 </li>
-                <li className='py-4 text-4xl hover:border-b-4'>
-                    <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
+                <li className='py-4 text-4xl'>
+                    <Link to="skills" smooth={true} duration={500} onClick={handleClick} className='nav-mobile-item'>
                         Skills
                     </Link>
                 </li>
-                <li className='py-4 text-4xl hover:border-b-4'>
-                    <Link to="projects" smooth={true} duration={500} onClick={handleClick}>
+                <li className='py-4 text-4xl'>
+                    <Link to="projects" smooth={true} duration={500} onClick={handleClick} className='nav-mobile-item'>
                         Projects
                     </Link>
                 </li>
-                <li className='py-4 text-4xl hover:border-b-4'>
-                    <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
+                <li className='py-4 text-4xl'>
+                    <Link to="contact" smooth={true} duration={500} onClick={handleClick} className='nav-mobile-item'>
                         Contact
                     </Link>
                 </li>
