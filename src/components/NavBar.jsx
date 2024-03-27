@@ -11,7 +11,7 @@ export default function NavBar() {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white nav-bar">
             <div>
                 <img src={Logo} alt="logo" className='w-[60px]' />
             </div>
