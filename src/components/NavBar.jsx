@@ -13,7 +13,9 @@ export default function NavBar() {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white nav-bar">
             <div>
-                <img src={Logo} alt="logo" className='w-[60px]' />
+                <Link to="home" smooth={true} duration={500} className='cursor-pointer'>
+                    <img src={Logo} alt="logo" className='w-[60px]' />
+                </Link>
             </div>
             {/* menu */}
             <div className='hidden md:flex'>
